@@ -1,3 +1,6 @@
 import "./styles.css";
+import { default as DropDown } from "./Module/dropdown";
 
-console.log("Hello, World!");
+const dropdown = new DropDown("dropdown", "click");
+
+console.log(dropdown);
